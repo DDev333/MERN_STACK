@@ -1,0 +1,14 @@
+.container{
+    margin: 100px auto;
+    width: 20%;
+}
+
+div.star::before{
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("./star.jpeg");
+    background-size: contain;
+}

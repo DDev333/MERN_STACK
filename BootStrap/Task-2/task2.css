@@ -1,0 +1,27 @@
+:root{
+    --row-height: 50px;
+}
+
+.heading{
+    text-align: center;
+    background-color: cyan;
+}
+
+.navbar{
+    background-color: gray;
+    color: white;
+}
+
+.text{
+    text-align: center;
+}
+
+.sidebar{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.rest{
+    height: calc(100vh - var(--row-height));
+}

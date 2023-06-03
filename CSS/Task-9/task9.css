@@ -1,0 +1,11 @@
+.container{
+    border: 3px solid black;
+    width: 33%;
+    margin: 100px auto;
+}
+
+.child{
+    margin: 40px;
+    padding: 0px;
+    background-color: yellow;
+}

@@ -1,0 +1,16 @@
+.container{
+    margin: 100px auto;
+    width: 20%;
+}
+
+.first{
+    display: list-item;
+    margin-left: 1em;
+}
+
+.second{
+    display: list-item;
+    margin-left: 1em;
+    list-style-type: circle;
+    list-style-position: inside;
+}

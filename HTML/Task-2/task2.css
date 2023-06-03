@@ -1,0 +1,18 @@
+div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table, th, td{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+th, td{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 200px;
+}

@@ -1,0 +1,15 @@
+.container{
+    display: inline-block;
+    width: 100vw;
+    margin: 50px auto;
+}
+
+.col{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.subcol{
+    border-bottom: 2px solid black;
+}

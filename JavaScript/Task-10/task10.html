@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task-10</title>
+</head>
+<body>
+    <script>
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        document.write("Original array:", arr);
+        document.write("<br>");
+        document.write("Using concat method:");
+        document.write("<br>");
+        document.write(arr.concat([10, 11, 12]));
+        document.write("<br>");
+        document.write("Using copyWithin method:");
+        document.write("<br>");
+        document.write(arr.copyWithin(0, 3, 6));
+        document.write("<br>");
+        document.write("Using map method:");
+        document.write("<br>");
+        document.write(arr.map(x => x * 2));
+        document.write("<br>");
+        document.write("Using every method:");
+        document.write("<br>");
+        document.write(arr.every(x => x > 0));
+        document.write("<br>");
+        document.write("Using some method:");
+        document.write("<br>");
+        document.write(arr.some(x => x > 0));
+        document.write("<br>");
+        document.write("Using filter method:");
+        document.write("<br>");
+        document.write(arr.filter(x => x > 5));
+        document.write("<br>");
+        document.write("Using find method:");
+        document.write("<br>");
+        document.write(arr.find(x => x > 5));
+        document.write("<br>");
+        document.write("Using findIndex method:");
+        document.write("<br>");
+        document.write(arr.findIndex(x => x > 5));
+        document.write("<br>");
+        document.write("Using indexOf method:");
+        document.write("<br>");
+        document.write(arr.indexOf(5));
+        document.write("<br>");
+        document.write("Using lastIndexOf method:");
+        document.write("<br>");
+        document.write(arr.lastIndexOf(5));
+        document.write("<br>");
+        document.write("Using push");
+        document.write("<br>");
+        arr.push(10);
+        document.write(arr);
+        document.write("<br>");
+        document.write("Using pop");
+        document.write("<br>");
+        arr.pop();
+        document.write(arr);
+        document.write("<br>");
+        document.write("Using shift");
+        document.write("<br>");
+        arr.shift();
+        document.write(arr);
+        document.write("<br>");
+    </script>
+</body>
+</html>
